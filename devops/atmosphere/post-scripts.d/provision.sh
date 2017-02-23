@@ -17,7 +17,7 @@ pip install -U ansible
 
 # Checkout latest release of Flow
 TMP_DIR=$(mktemp -d)
-git clone https://github.com/Kitware/flow.git "$TMP_DIR"
+git clone https://github.com/adsorensen/flow.git "$TMP_DIR"
 git checkout "$(git describe --tags $(git rev-list --tags --max-count=1))"
 
 # Prepare ansible to be run
