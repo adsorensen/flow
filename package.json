@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/adsorensen/flow.git"
+    "url": "git://github.com/Kitware/flow.git"
   },
   "dependencies": {
     "backbone": "1.0.0",

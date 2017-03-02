@@ -6,7 +6,7 @@ Please visit the `Flow homepage`_ or the `GitHub repository`_ for more
 information.
 
 .. _Flow homepage: http://www.tangelohub.org/tangelohub
-.. _GitHub repository: https://github.com/adsorensen/flow
+.. _GitHub repository: https://github.com/Kitware/flow
 
 User's Guide
 ============
