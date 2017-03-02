@@ -18,7 +18,7 @@
 
 - name: Get flow from github
   git:
-    repo: https://github.com/adsorensen/flow.git
+    repo: https://github.com/Kitware/flow.git
     version: "{{ flow_version }}"
     dest: "{{ flow_path }}"
     update: no
