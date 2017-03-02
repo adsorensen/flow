@@ -27,7 +27,7 @@
       - r-base-dev
 
   - name: girder_worker | checkout girder_worker
-    git: repo=https://github.com/adsorensen/girder_worker.git dest=/vagrant/girder_worker update=yes
+    git: repo=https://github.com/girder/girder_worker.git dest=/vagrant/girder_worker update=yes
 
   - name: girder_worker | create worker local config file
     copy: src=worker.local.cfg dest=/vagrant/girder_worker/girder_worker/worker.local.cfg owner=root group=staff mode=0644
