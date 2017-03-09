@@ -27,7 +27,7 @@
             done = (_.isFunction(done)) ? done : function () {};
 
             if (_.isEmpty(entities)) {
-                this.bootstrapAlert("danger", "files are unsupported UTIL.", 15);
+                this.bootstrapAlert("danger", "files are unsupported", 15);
             } else if (_.size(entities) == 1) {
                 done(_.first(_.values(entities)));
             } else {
