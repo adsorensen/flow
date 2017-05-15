@@ -209,7 +209,7 @@
                     typeFormats = flow.getTypeFormatsFromExtension(extension);
 
                 if (_.isEmpty(typeFormats)) {
-                    flow.bootstrapAlert("danger", extension + " files are unsupported. DATASET", 15);
+                    flow.bootstrapAlert("danger", extension + " files are unsupported.", 15);
                 } else {
                     flow.resolveTypeFormats(typeFormats, _.bind(function (typeFormat) {
                         _.extend(dataset, typeFormat);
