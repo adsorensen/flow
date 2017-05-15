@@ -1,5 +1,5 @@
 /**
- * Administrative configuration view. Shows the global-level settings for this
+ * Administrative configuration view. Shows the global level settings for this
  * plugin.
  */
 girder.views.flow_ConfigView = girder.View.extend({
