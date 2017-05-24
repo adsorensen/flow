@@ -217,7 +217,7 @@
                         this.datasets.add(dataset);
                         flow.bootstrapAlert(
                             "success",
-                            file.name + "(" + typeFormat.type + ") loaded successfully! HERE",
+                            file.name + "(" + typeFormat.type + ") loaded successfully!",
                             5);
                     }, this));
                 }
